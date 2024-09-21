@@ -6,7 +6,7 @@ import tkinter as tk
 from tkinter import messagebox
 
 # Adicionar o caminho das DLLs da libopenmetaverse
-sys.path.append(r'C:\Users\jose\Documents\GitHub\0joseDark\SL-viewer\DLLs')
+sys.path.append(r'https://github.com/0joseDark/SL-viewer/tree/main/DLLs')
 
 # Carregar as bibliotecas
 clr.AddReference('OpenMetaverse')
