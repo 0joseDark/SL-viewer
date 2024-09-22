@@ -9,8 +9,8 @@ from tkinter import messagebox
 sys.path.append(r'C:\Users\jose\Documents\GitHub\0joseDark\SL-viewer\DLLs')
 
 # Carregar as bibliotecas
-clr.AddReference('OpenMetaverse')
-clr.AddReference('OpenMetaverseTypes')
+clr.AddReference('OpenMetaverseTypes') # clr.AddReference('OpenMetaverse')
+clr.AddReference('OpenMetaverse') # OpenMetaverseTypes
 
 # Importar classes da libopenmetaverse
 from OpenMetaverse import GridClient, LoginParams, LoginStatus, Vector3, Quaternion

@@ -11,8 +11,9 @@ from tkinter import messagebox  # Caixa de mensagens para interações com o usu
 sys.path.append(r'C:\Users\jose\Documents\GitHub\0joseDark\SL-viewer\DLLs')
 
 # Carrega as bibliotecas .NET da libopenmetaverse
-clr.AddReference('OpenMetaverse')
-clr.AddReference('OpenMetaverseTypes')
+clr.AddReference(r'C:\Users\jose\Documents\GitHub\0joseDark\SL-viewer\DLLs\OpenMetaverse')
+clr.AddReference(r'C:\Users\jose\Documents\GitHub\0joseDark\SL-viewer\DLLs\OpenMetaverseTypes')
+
 
 # Importa as classes necessárias da libopenmetaverse
 from OpenMetaverse import GridClient, LoginParams, LoginStatus, Vector3, Quaternion
