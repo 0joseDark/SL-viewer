@@ -8,7 +8,7 @@ from tkinter import messagebox  # Caixa de mensagens para interações com o usu
 
 # Adiciona o caminho onde as DLLs da libopenmetaverse estão localizadas
 # Substitua 'C:\caminho\para\dlls' pelo caminho real onde você extraiu as DLLs
-sys.path.append(r'C:\Users\jose\Documents\GitHub\0joseDark\SL-viewer\DLLs')
+sys.path.append(r'https://github.com/0joseDark/SL-viewer/tree/main/DLLs')
 
 # Carrega as bibliotecas .NET da libopenmetaverse
 clr.AddReference(r'C:\Users\jose\Documents\GitHub\0joseDark\SL-viewer\DLLs\OpenMetaverse')
